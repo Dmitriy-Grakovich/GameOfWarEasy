@@ -1,0 +1,117 @@
+{
+	"ABI version": 2,
+	"version": "2.1",
+	"header": ["time", "expire"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "atacLevel",
+			"inputs": [
+				{"name":"volue","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "plusprotection",
+			"inputs": [
+				{"name":"voluepr","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "addAtaca",
+			"inputs": [
+				{"name":"value","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "sendValue",
+			"inputs": [
+				{"name":"dest","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "atacaGameOb",
+			"inputs": [
+				{"name":"adresUnit","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "getHealth",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"h","type":"uint256"}
+			]
+		},
+		{
+			"name": "msgAddress",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"msgAddress","type":"address"}
+			]
+		},
+		{
+			"name": "health",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"health","type":"uint256"}
+			]
+		},
+		{
+			"name": "unitNum",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"unitNum","type":"uint256"}
+			]
+		},
+		{
+			"name": "impactforce",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"impactforce","type":"uint256"}
+			]
+		},
+		{
+			"name": "protection",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"protection","type":"uint256"}
+			]
+		}
+	],
+	"data": [
+		{"key":1,"name":"unitNum","type":"uint256"}
+	],
+	"events": [
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"_constructorFlag","type":"bool"},
+		{"name":"msgAddress","type":"address"},
+		{"name":"health","type":"uint256"},
+		{"name":"unitNum","type":"uint256"},
+		{"name":"impactforce","type":"uint256"},
+		{"name":"protection","type":"uint256"}
+	]
+}
